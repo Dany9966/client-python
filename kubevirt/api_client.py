@@ -57,6 +57,8 @@ class ApiClient(object):
         'date': date,
         'datetime': datetime,
         'object': object,
+        # Referenced by generated models but not emitted by swagger-codegen.
+        'K8sIoApimachineryPkgApiResourceQuantity': str,
     }
 
     def __init__(self, host=None, header_name=None, header_value=None, cookie=None):
